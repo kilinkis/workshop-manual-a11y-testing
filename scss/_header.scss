@@ -78,6 +78,8 @@
     font-size: 0.9rem;
     padding: 1.9em;
     position: relative;
+    background: none;
+    border: none;
 }
 .megamenu-section:first-of-type .megamenu-navitem {
     margin-left: 300px;
@@ -90,7 +92,6 @@
     height: 0;
     left: 0;
     max-width: var(--width-wide);
-    opacity: 0;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -100,7 +101,7 @@
 }
 .megamenu-section:hover .megamenu-submenu {
     height: 225px;
-    opacity: 1;
+    display: flex;
     overflow: hidden;
     z-index: 1;
 }
