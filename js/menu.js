@@ -1,6 +1,6 @@
 function load() {
-    const menuItems = document.querySelectorAll('.megamenu-navitem')
-    const submenus = document.querySelectorAll('.megamenu-section')
+    const menuItems = Array.from(document.querySelectorAll('.megamenu-navitem'))
+    const submenus = Array.from(document.querySelectorAll('.megamenu-section'))
 
     function resetSubmenus(event) {
         var activeSubmenu = document.querySelector('.megamenu-section.active')
