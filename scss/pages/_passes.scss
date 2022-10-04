@@ -8,7 +8,7 @@
 }
 .page-plans {
     p {
-        color: var(--color-accent-muted);
+        color: var(--color-primary);
         font-size: 0.8rem;
         margin-left: 5em;
         margin-top: 1.5em;
@@ -92,7 +92,7 @@
                 color: var(--color-accent-muted);
             }
             button {
-                background-color: var(--color-accent-muted);
+                background-color: var(--color-accent-dark);
             }
         }
         li.plan-pro {

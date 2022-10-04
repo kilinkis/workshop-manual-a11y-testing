@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <title>CampSpots - Passes</title>
         <link rel="stylesheet" type="text/css" href="../styles.scss" />
@@ -7,19 +7,19 @@
     </head>
     <body class="page-plans">
         <include src="_includes/header.html"></include>
-        <div id="main">
+        <main id="main">
             <section class="layout-centered">
                 <header class="page-header">
                     <div class="page-header-content layout">
-                        <h2 class="primary-heading h1-style">Pick a Plan and Start Your Adventure Today!</h2>
+                        <h1 class="primary-heading h1-style">Pick a Plan and Start Your Adventure Today!</h1>
                     </div>
                 </header>
                 <article class="layout">
                     <ul class="plan-list">
                         <li class="plan-basic">
                             <div>
-                                <h3>CampSpots <span>Basic</span></h3>
-                                <h4>$99<span>/year</span></h4>
+                                <h2>CampSpots <span>Basic</span></h2>
+                                <h3>$99<span>/year</span></h3>
                                 <p class="subhead">Renewed annually</p>
 
                                 <ul>
@@ -43,8 +43,8 @@
                         <li class="plan-pro">
                             <div>
                                 <span class="icon-proplan"></span>
-                                <h3>CampSpots <span>Pro</span></h3>
-                                <h4>$139<span>/year</span></h4>
+                                <h2>CampSpots <span>Pro</span></h2>
+                                <h3>$139<span>/year</span></h3>
                                 <p class="subhead">Renewed annually</p>
 
                                 <ul>
@@ -67,23 +67,23 @@
                     </ul>
                 </article>
             </section>
-        </div>
+        </main>
 
-        <div class="payment-modal" role="dialog" hidden>
+        <div class="payment-modal" role="dialog" aria-label="Plans modal" hidden>
             <header>
                 <button class="btn-close-dialog">X</button>
                 <img src="/images/icons/icon-proplan.svg" alt="" />
                 <div id="header-basic">
                     <h2>CampSpots<span>Basic</span></h2>
-                    <h3>$99/year</h3>
+                    <h2>$99/year</h2>
                 </div>
                 <div id="header-pro">
                     <h2>CampSpots<span>Pro</span></h2>
-                    <h3>$139/year</h3>
+                    <h2>$139/year</h2>
                 </div>
             </header>
             <section class="payment-form">
-                <h3>Donate to support local sites</h3>
+                <h2>Donate to support local sites</h2>
                 <form>
                     <div class="control-group radios">
                         <label>
@@ -104,7 +104,7 @@
                         </label>
                     </div>
                     <div class="payment-buttons">
-                        <h3>Payment Method</h3>
+                        <h2>Payment Method</h2>
                         <div>
                             <button type="button" class="payment-button active">
                                 <img alt="Credit card" width="25px" src="/images/icons/icon-credit-card.svg">
@@ -122,7 +122,7 @@
                         </div>
                         <div class="control-group">
                             <div class="media-img-after">
-                                <img src="/images/icons/credit-card-icons.png" style="width: 127px; height: 20px;" aria-hidden="true" />
+                                <img alt="" src="/images/icons/credit-card-icons.png" style="width: 127px; height: 20px;" aria-hidden="true" />
                                 <label for="cc-number" class="visually-hidden">Credit Card Number</label>
                                 <input type="number" name="cc-number" id="cc-number" placeholder="Credit card number" />
                             </div>
